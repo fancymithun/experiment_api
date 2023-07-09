@@ -1,10 +1,9 @@
 const express = require("express")
 const User = require("./models/User");
 const routes = require("./routes/user")
+require("./db")
 
 const app = express()
-
-
 app.use(express.urlencoded())
 
 app.use(express.json())
