@@ -11,22 +11,22 @@ const signup = async (req,res) => {
 
     const user = new User({username,password,phone})
 
-    return res.json({message : user})
+    // return res.json({message : user})
     
-    // await user.save().then((req,res) => {
-    //     res.status(201).json({
-    //         message : "User created successfully"
-    //     }).catch(() => {
-    //         res.status(400).json({
-    //             error : "Failed to create user"
-    //         })
-    //     })
-    // })
+    await user.save().then((req,res) => {
+        res.status(201).json({
+            message : "User created successfully"
+        }).catch(() => {
+            res.status(400).json({
+                error : "Failed to create user"
+            })
+        })
+    })
 
 }
 
 const signin = async(req,res) => {
-    
+    // if()
 }
 
 const deleteUser = async(req,res) => {

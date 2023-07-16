@@ -17,8 +17,8 @@ const connectDB = async() => {
         await pool.connect()
         // const response = await pool.query("CREATE TABLE Users(username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL,phone VARCHAR(10) NOT NULL)")
         // const response = await pool.query("INSERT INTO users (username,password,phone) VALUES ('john doe','123456','8787878712'),('jane smith','abcede123','8762726271')")
-        const response = await pool.query("SELECT * from users")
-        console.log(response)
+        // const response = await pool.query("SELECT * from users")
+        console.log("Connected to database")
         await pool.end()
     } catch (error) {
         console.log(error);
