@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Experiment',
+  tagline: 'Fancy Mithun Experimentations',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'fancymithun', // Usually your GitHub org/user name.
+  projectName: 'experiment_api', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Experiment',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -78,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/fancymithun/experiment_api',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,17 +99,21 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/MithunPrabhu12',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/__prabhu7/',
               },
             ],
           },
@@ -122,7 +126,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/fancymithun',
               },
             ],
           },
