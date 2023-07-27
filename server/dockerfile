@@ -16,5 +16,5 @@ COPY ..
 # Expose the port on which your node.js server runs(adjust if needed)
 EXPOSE 5000
 
-# STart the backend server
+# Start the backend server
 CMD ["npm","start"]
